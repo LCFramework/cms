@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d43be8fc3b5a615fa96e88eb7f716f1",
+    "content-hash": "6b6347db0ff802063d7b4f3f86610668",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -2252,11 +2252,11 @@
         },
         {
             "name": "lcframework/framework",
-            "version": "dev-fixes",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LCFramework/framework.git",
-                "reference": "4d4e9c3717cfeb871291ebfda56b888982e9ac69"
+                "reference": "9e33891517c2d082f4e5e67712974794dc7d257a"
             },
             "require": {
                 "calebporzio/sushi": "^2.4",
@@ -2276,6 +2276,7 @@
                 "pestphp/pest-plugin-laravel": "^1.1",
                 "phpunit/phpunit": "^9.5"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2318,7 +2319,7 @@
                 "laravel",
                 "lcframework"
             ],
-            "time": "2022-08-23T17:50:56+00:00"
+            "time": "2022-08-23T17:56:14+00:00"
         },
         {
             "name": "league/commonmark",
