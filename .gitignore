@@ -13,7 +13,7 @@ yarn-error.log
 /.vscode
 /modules
 /themes
-public
+public/*
 !public/.htaccess
 !public/favicon.ico
 !public/index.php
