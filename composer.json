@@ -30,11 +30,7 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        },
-        "classmap": [
-            "modules",
-            "themes"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {

@@ -2256,7 +2256,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/LCFramework/framework.git",
-                "reference": "210b15c1b27589076524559809e3ada36357d545"
+                "reference": "7d246d570cd30806824e2beb8905cfdc04cfd0e1"
             },
             "require": {
                 "calebporzio/sushi": "^2.4",
@@ -2319,7 +2319,7 @@
                 "laravel",
                 "lcframework"
             ],
-            "time": "2022-08-24T15:24:51+00:00"
+            "time": "2022-08-24T18:57:04+00:00"
         },
         {
             "name": "league/commonmark",
