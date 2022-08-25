@@ -15,6 +15,7 @@ use Illuminate\View\Middleware\ShareErrorsFromSession;
 use LCFramework\Framework\Admin\Http\Middleware\Authenticate;
 use LCFramework\Framework\Auth\Http\Middleware\EnsureEmailIsVerifiedIfRequired;
 use LCFramework\Framework\Auth\Http\Middleware\EnsureUserIsNotBanned;
+use LCFramework\Framework\Installer\Http\Middleware\EnsureFrameworkIsInstalled;
 
 return [
 
@@ -284,6 +285,7 @@ return [
             EnsureUserIsNotBanned::class
         ],
         'base' => [
+            EnsureFrameworkIsInstalled::class,
             EncryptCookies::class,
             AddQueuedCookiesToResponse::class,
             StartSession::class,
